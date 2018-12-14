@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtdni = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnregistrar = new System.Windows.Forms.Button();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.cbotipo = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtid = new System.Windows.Forms.TextBox();
+            this.txtusuario = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtcontraseña = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
@@ -60,80 +60,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Acciones";
             // 
-            // groupBox4
-            // 
-            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox4.Controls.Add(this.comboBox1);
-            this.groupBox4.Controls.Add(this.label2);
-            this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Controls.Add(this.textBox5);
-            this.groupBox4.Controls.Add(this.textBox1);
-            this.groupBox4.Controls.Add(this.label1);
-            this.groupBox4.Controls.Add(this.txtdni);
-            this.groupBox4.Controls.Add(this.label13);
-            this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.ForeColor = System.Drawing.Color.White;
-            this.groupBox4.Location = new System.Drawing.Point(12, 12);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(376, 126);
-            this.groupBox4.TabIndex = 97;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Registrar Cuentas de Usuario";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(9, 38);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(20, 17);
-            this.label4.TabIndex = 95;
-            this.label4.Text = "Id";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(73, 35);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(35, 22);
-            this.textBox5.TabIndex = 94;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(73, 62);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(107, 22);
-            this.textBox1.TabIndex = 92;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(9, 67);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 17);
-            this.label1.TabIndex = 93;
-            this.label1.Text = "Usuario";
-            // 
-            // txtdni
-            // 
-            this.txtdni.Location = new System.Drawing.Point(261, 62);
-            this.txtdni.Name = "txtdni";
-            this.txtdni.Size = new System.Drawing.Size(109, 22);
-            this.txtdni.TabIndex = 90;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(186, 67);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(69, 17);
-            this.label13.TabIndex = 91;
-            this.label13.Text = "Password";
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.SeaGreen;
@@ -150,12 +76,13 @@
             this.button1.TabIndex = 59;
             this.button1.Text = "Editar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.IndianRed;
             this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SteelBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
@@ -167,6 +94,7 @@
             this.button2.TabIndex = 58;
             this.button2.Text = "Cerrar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnregistrar
             // 
@@ -184,6 +112,35 @@
             this.btnregistrar.TabIndex = 57;
             this.btnregistrar.Text = "Registrar";
             this.btnregistrar.UseVisualStyleBackColor = false;
+            this.btnregistrar.Click += new System.EventHandler(this.btnregistrar_Click);
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox4.Controls.Add(this.cbotipo);
+            this.groupBox4.Controls.Add(this.label2);
+            this.groupBox4.Controls.Add(this.label4);
+            this.groupBox4.Controls.Add(this.txtid);
+            this.groupBox4.Controls.Add(this.txtusuario);
+            this.groupBox4.Controls.Add(this.label1);
+            this.groupBox4.Controls.Add(this.txtcontraseña);
+            this.groupBox4.Controls.Add(this.label13);
+            this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.ForeColor = System.Drawing.Color.White;
+            this.groupBox4.Location = new System.Drawing.Point(12, 12);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(376, 126);
+            this.groupBox4.TabIndex = 97;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Registrar Cuentas de Usuario";
+            // 
+            // cbotipo
+            // 
+            this.cbotipo.FormattingEnabled = true;
+            this.cbotipo.Location = new System.Drawing.Point(73, 89);
+            this.cbotipo.Name = "cbotipo";
+            this.cbotipo.Size = new System.Drawing.Size(107, 25);
+            this.cbotipo.TabIndex = 97;
             // 
             // label2
             // 
@@ -196,19 +153,65 @@
             this.label2.TabIndex = 96;
             this.label2.Text = "Tipo";
             // 
-            // comboBox1
+            // label4
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(73, 89);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(107, 25);
-            this.comboBox1.TabIndex = 97;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(9, 38);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(20, 17);
+            this.label4.TabIndex = 95;
+            this.label4.Text = "Id";
+            // 
+            // txtid
+            // 
+            this.txtid.Location = new System.Drawing.Point(73, 35);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(35, 22);
+            this.txtid.TabIndex = 94;
+            // 
+            // txtusuario
+            // 
+            this.txtusuario.Location = new System.Drawing.Point(73, 62);
+            this.txtusuario.Name = "txtusuario";
+            this.txtusuario.Size = new System.Drawing.Size(107, 22);
+            this.txtusuario.TabIndex = 92;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(9, 67);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 17);
+            this.label1.TabIndex = 93;
+            this.label1.Text = "Usuario";
+            // 
+            // txtcontraseña
+            // 
+            this.txtcontraseña.Location = new System.Drawing.Point(261, 62);
+            this.txtcontraseña.Name = "txtcontraseña";
+            this.txtcontraseña.Size = new System.Drawing.Size(109, 22);
+            this.txtcontraseña.TabIndex = 90;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(186, 67);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(69, 17);
+            this.label13.TabIndex = 91;
+            this.label13.Text = "Password";
             // 
             // Registrar_Cuentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(43)))), ((int)(((byte)(76)))));
             this.ClientSize = new System.Drawing.Size(400, 300);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox4);
@@ -230,12 +233,12 @@
         private System.Windows.Forms.Button btnregistrar;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label4;
-        internal System.Windows.Forms.TextBox textBox5;
-        internal System.Windows.Forms.TextBox textBox1;
+        internal System.Windows.Forms.TextBox txtid;
+        internal System.Windows.Forms.TextBox txtusuario;
         private System.Windows.Forms.Label label1;
-        internal System.Windows.Forms.TextBox txtdni;
+        internal System.Windows.Forms.TextBox txtcontraseña;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbotipo;
         private System.Windows.Forms.Label label2;
     }
 }

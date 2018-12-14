@@ -14,7 +14,6 @@ C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Form
 C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Usuario.resources
 C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.TipoDocumento.resources
 C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Cuestionario.resources
-C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Opciones.resources
 C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Profesiones.resources
 C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Invitado.resources
 C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
@@ -48,3 +47,5 @@ C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Form
 C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Registrar_Opciones.resources
 C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Registrar_Profesiones.resources
 C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Registrar_TipoDocumento.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.TipAlumno.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.inicio.resources

@@ -12,11 +12,20 @@ namespace Electivo_I.Formularios
 {
     public partial class Registrar_TipoDocumento : Form
     {
+        Clases.TipoDocumento jimmy = new Clases.TipoDocumento();
         public Registrar_TipoDocumento()
         {
             InitializeComponent();
         }
+        private void llenar()
+        {
 
+            //jimmy.Id = txtid.Text;
+            //jimmy.co+ = txtusuario.Text;
+            //jimmy.Contraseña = txtcontraseña.Text;
+            //jimmy.Tipo = cbotipo.Text; ;
+
+        }
         private void txtbuscar_TextChanged(object sender, EventArgs e)
         {
 
@@ -28,6 +37,16 @@ namespace Electivo_I.Formularios
         }
 
         private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnregistrar_Click(object sender, EventArgs e)
         {
 
         }

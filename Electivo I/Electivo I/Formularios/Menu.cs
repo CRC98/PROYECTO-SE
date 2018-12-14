@@ -50,6 +50,7 @@ namespace Electivo_I.Formularios
         private void button1_Click(object sender, EventArgs e)
         {
             AbrirFormPanel(new Archivo());
+            pictureBox1.Enabled = true;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -60,6 +61,7 @@ namespace Electivo_I.Formularios
         private void button2_Click(object sender, EventArgs e)
         {
             AbrirFormPanel(new Usuario());
+            pictureBox1.Enabled = true;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -76,11 +78,23 @@ namespace Electivo_I.Formularios
         private void button4_Click(object sender, EventArgs e)
         {
             report.ShowDialog();
+            pictureBox1.Enabled = true;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             AbrirFormPanel(new Acerca_de());
+            pictureBox1.Enabled = true;
+        }
+
+        private void PanelContenedor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void labelhora_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

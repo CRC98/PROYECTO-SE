@@ -1,6 +1,6 @@
 ﻿namespace Electivo_I.Formularios
 {
-    partial class Registrar_Opciones
+    partial class Registrar_TipoAlumno
     {
         /// <summary>
         /// Required designer variable.
@@ -35,8 +35,6 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtdni = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -79,7 +77,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.IndianRed;
             this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SteelBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
@@ -91,6 +89,7 @@
             this.button2.TabIndex = 58;
             this.button2.Text = "Cerrar";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnregistrar
             // 
@@ -114,8 +113,6 @@
             this.groupBox4.BackColor = System.Drawing.Color.Transparent;
             this.groupBox4.Controls.Add(this.label4);
             this.groupBox4.Controls.Add(this.textBox5);
-            this.groupBox4.Controls.Add(this.textBox1);
-            this.groupBox4.Controls.Add(this.label1);
             this.groupBox4.Controls.Add(this.txtdni);
             this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -145,24 +142,6 @@
             this.textBox5.Size = new System.Drawing.Size(35, 22);
             this.textBox5.TabIndex = 94;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(335, 87);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(35, 22);
-            this.textBox1.TabIndex = 92;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(261, 92);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 17);
-            this.label1.TabIndex = 93;
-            this.label1.Text = "Letra";
-            // 
             // txtdni
             // 
             this.txtdni.Location = new System.Drawing.Point(92, 87);
@@ -177,20 +156,20 @@
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(9, 90);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(73, 17);
+            this.label13.Size = new System.Drawing.Size(61, 17);
             this.label13.TabIndex = 91;
-            this.label13.Text = "Respuesta";
+            this.label13.Text = "Nombre";
             // 
-            // Registrar_Opciones
+            // Registrar_TipoAlumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(43)))), ((int)(((byte)(76)))));
             this.ClientSize = new System.Drawing.Size(400, 300);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Registrar_Opciones";
+            this.Name = "Registrar_TipoAlumno";
             this.Text = "Registrar_Opciones";
             this.groupBox1.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
@@ -208,8 +187,6 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label4;
         internal System.Windows.Forms.TextBox textBox5;
-        internal System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
         internal System.Windows.Forms.TextBox txtdni;
         private System.Windows.Forms.Label label13;
     }

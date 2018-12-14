@@ -38,6 +38,8 @@
     <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
@@ -52,8 +54,18 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Administrador.cs" />
+    <Compile Include="Clases\Alumno.cs" />
+    <Compile Include="Clases\Cuentas.cs" />
+    <Compile Include="Clases\Cuestionario.cs" />
+    <Compile Include="Clases\Invitado.cs" />
+    <Compile Include="Clases\Profesiones.cs" />
+    <Compile Include="Clases\Test.cs" />
+    <Compile Include="Clases\TipoAlumno.cs" />
+    <Compile Include="Clases\TipoDocumento.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,17 +108,11 @@
     <Compile Include="Formularios\Cuestionario.Designer.cs">
       <DependentUpon>Cuestionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Invitado.cs">
+    <Compile Include="Formularios\inicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Invitado.Designer.cs">
-      <DependentUpon>Invitado.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\Invitados.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\Invitados.Designer.cs">
-      <DependentUpon>Invitados.cs</DependentUpon>
+    <Compile Include="Formularios\inicio.Designer.cs">
+      <DependentUpon>inicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Login.cs">
       <SubType>Form</SubType>
@@ -120,11 +126,11 @@
     <Compile Include="Formularios\Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Opciones.cs">
+    <Compile Include="Formularios\TipAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Opciones.Designer.cs">
-      <DependentUpon>Opciones.cs</DependentUpon>
+    <Compile Include="Formularios\TipAlumno.Designer.cs">
+      <DependentUpon>TipAlumno.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Profesiones.cs">
       <SubType>Form</SubType>
@@ -156,11 +162,11 @@
     <Compile Include="Formularios\Registrar_Cuestionario.Designer.cs">
       <DependentUpon>Registrar_Cuestionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Registrar_Opciones.cs">
+    <Compile Include="Formularios\Registrar_TipoAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Registrar_Opciones.Designer.cs">
-      <DependentUpon>Registrar_Opciones.cs</DependentUpon>
+    <Compile Include="Formularios\Registrar_TipoAlumno.Designer.cs">
+      <DependentUpon>Registrar_TipoAlumno.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Registrar_Profesiones.cs">
       <SubType>Form</SubType>
@@ -218,11 +224,8 @@
     <EmbeddedResource Include="Formularios\Cuestionario.resx">
       <DependentUpon>Cuestionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Invitado.resx">
-      <DependentUpon>Invitado.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Invitados.resx">
-      <DependentUpon>Invitados.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\inicio.resx">
+      <DependentUpon>inicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -230,8 +233,8 @@
     <EmbeddedResource Include="Formularios\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Opciones.resx">
-      <DependentUpon>Opciones.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\TipAlumno.resx">
+      <DependentUpon>TipAlumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Profesiones.resx">
       <DependentUpon>Profesiones.cs</DependentUpon>
@@ -248,8 +251,8 @@
     <EmbeddedResource Include="Formularios\Registrar_Cuestionario.resx">
       <DependentUpon>Registrar_Cuestionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Registrar_Opciones.resx">
-      <DependentUpon>Registrar_Opciones.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\Registrar_TipoAlumno.resx">
+      <DependentUpon>Registrar_TipoAlumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Registrar_Profesiones.resx">
       <DependentUpon>Registrar_Profesiones.cs</DependentUpon>
@@ -354,6 +357,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\impresora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado-cerrado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\birrete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\birrete %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colegio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ov1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

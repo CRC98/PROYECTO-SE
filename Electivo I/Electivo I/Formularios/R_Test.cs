@@ -14,6 +14,7 @@ namespace Electivo_I.Formularios
     {
         public R_Test()
         {
+            
             InitializeComponent();
                   }
 

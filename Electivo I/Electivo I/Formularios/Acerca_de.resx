@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>La orientación vocacional es un conjunto de prácticas destinadas al esclarecimiento de la problemática 
-vocacional. Se trata de un trabajo preventivo cuyo objetivo es proveer los elementos necesarios para 
-posibilitar la mejor situación de elección para cada sujeto.
+    <value>La orientación vocacional es un conjunto de prácticas destinadas al esclarecimiento de la 
+problemática vocacional. Se trata de un trabajo preventivo cuyo objetivo es proveer los 
+elementos necesarios para posibilitar la mejor situación de elección para cada sujeto.
 </value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>La orientación vocacional puede concretarse de forma individual o grupal, ya que supone actividades 
-ligadas tanto a la exploración personal como al análisis de la realidad a través de información sobre la 
-oferta académica y las particularidades del mercado laboral.</value>
+    <value>La orientación vocacional puede concretarse de forma individual o grupal, ya que supone 
+actividades ligadas tanto a la exploración personal como al análisis de la realidad a través 
+de información sobre la oferta académica y las particularidades del mercado laboral.</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>En esta aplicacion permite visualizar a modo administrador todos los datos relacionados al test de 
-orientacion vocacional que realizan los alumnos, asi como su control de acceso y tambien ver la serie 
-de resultados que ha optenido casa usuario evaluado.
+    <value>En esta aplicacion permite visualizar a modo administrador todos los datos relacionados al
+test de orientacion vocacional que realizan los alumnos, asi como su control de acceso y 
+tambien ver la serie de resultados que ha optenido casa usuario evaluado.
 </value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Esta aplicacion ha sido desarrollada durante el curso de Electivo I en la Universidad San Pedro de 
-Chimbote. Los autores de dicho proyecto son los alumnos: Jimmy Daniel Linosi Moncada, 
-Antonio Alcantara Rodriguez y Frank Mestanza. </value>
+    <value>Esta aplicacion ha sido desarrollada durante el curso de Electivo I en la Universidad San 
+Pedro de Chimbote. Los autores de dicho proyecto son los alumnos: Jimmy Daniel Linosi 
+Moncada, Antonio Alcantara Rodriguez y Frank Mestanza. </value>
   </data>
 </root>

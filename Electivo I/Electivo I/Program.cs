@@ -16,7 +16,7 @@ namespace Electivo_I
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Formularios.Menu());
+            Application.Run(new Formularios.inicio());
         }
     }
 }

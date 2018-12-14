@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Electivo_I.Formularios
 {
-    public partial class Invitados : Form
+    public partial class Registrar_TipoAlumno : Form
     {
-        public Invitados()
+        public Registrar_TipoAlumno()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

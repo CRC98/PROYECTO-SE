@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btneditar = new System.Windows.Forms.Button();
+            this.btncerrar = new System.Windows.Forms.Button();
             this.btnregistrar = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtdescripcion = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtid = new System.Windows.Forms.TextBox();
+            this.txtduracion = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtdni = new System.Windows.Forms.TextBox();
+            this.txtnombre = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
@@ -48,8 +48,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.btneditar);
+            this.groupBox1.Controls.Add(this.btncerrar);
             this.groupBox1.Controls.Add(this.btnregistrar);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
@@ -60,22 +60,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Acciones";
             // 
-            // button2
+            // btneditar
             // 
-            this.button2.BackColor = System.Drawing.Color.IndianRed;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = global::Electivo_I.Properties.Resources.logout;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(215, 56);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(155, 45);
-            this.button2.TabIndex = 58;
-            this.button2.Text = "Cerrar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btneditar.BackColor = System.Drawing.Color.SeaGreen;
+            this.btneditar.FlatAppearance.BorderSize = 0;
+            this.btneditar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SteelBlue;
+            this.btneditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btneditar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btneditar.ForeColor = System.Drawing.Color.White;
+            this.btneditar.Image = global::Electivo_I.Properties.Resources.editar;
+            this.btneditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btneditar.Location = new System.Drawing.Point(6, 21);
+            this.btneditar.Name = "btneditar";
+            this.btneditar.Size = new System.Drawing.Size(155, 45);
+            this.btneditar.TabIndex = 59;
+            this.btneditar.Text = "Editar";
+            this.btneditar.UseVisualStyleBackColor = false;
+            this.btneditar.Click += new System.EventHandler(this.btneditar_Click);
+            // 
+            // btncerrar
+            // 
+            this.btncerrar.BackColor = System.Drawing.Color.IndianRed;
+            this.btncerrar.FlatAppearance.BorderSize = 0;
+            this.btncerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SteelBlue;
+            this.btncerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncerrar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncerrar.ForeColor = System.Drawing.Color.White;
+            this.btncerrar.Image = global::Electivo_I.Properties.Resources.logout;
+            this.btncerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btncerrar.Location = new System.Drawing.Point(215, 56);
+            this.btncerrar.Name = "btncerrar";
+            this.btncerrar.Size = new System.Drawing.Size(155, 45);
+            this.btncerrar.TabIndex = 58;
+            this.btncerrar.Text = "Cerrar";
+            this.btncerrar.UseVisualStyleBackColor = false;
+            this.btncerrar.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnregistrar
             // 
@@ -93,17 +112,18 @@
             this.btnregistrar.TabIndex = 57;
             this.btnregistrar.Text = "Registrar";
             this.btnregistrar.UseVisualStyleBackColor = false;
+            this.btnregistrar.Click += new System.EventHandler(this.btnregistrar_Click);
             // 
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox4.Controls.Add(this.textBox2);
+            this.groupBox4.Controls.Add(this.txtdescripcion);
             this.groupBox4.Controls.Add(this.label2);
             this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Controls.Add(this.textBox5);
-            this.groupBox4.Controls.Add(this.textBox1);
+            this.groupBox4.Controls.Add(this.txtid);
+            this.groupBox4.Controls.Add(this.txtduracion);
             this.groupBox4.Controls.Add(this.label1);
-            this.groupBox4.Controls.Add(this.txtdni);
+            this.groupBox4.Controls.Add(this.txtnombre);
             this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.Color.White;
@@ -114,12 +134,12 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Registrar Profesion";
             // 
-            // textBox2
+            // txtdescripcion
             // 
-            this.textBox2.Location = new System.Drawing.Point(105, 89);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(265, 22);
-            this.textBox2.TabIndex = 96;
+            this.txtdescripcion.Location = new System.Drawing.Point(105, 89);
+            this.txtdescripcion.Name = "txtdescripcion";
+            this.txtdescripcion.Size = new System.Drawing.Size(265, 22);
+            this.txtdescripcion.TabIndex = 96;
             // 
             // label2
             // 
@@ -143,19 +163,19 @@
             this.label4.TabIndex = 95;
             this.label4.Text = "Id";
             // 
-            // textBox5
+            // txtid
             // 
-            this.textBox5.Location = new System.Drawing.Point(105, 33);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(35, 22);
-            this.textBox5.TabIndex = 94;
+            this.txtid.Location = new System.Drawing.Point(105, 33);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(35, 22);
+            this.txtid.TabIndex = 94;
             // 
-            // textBox1
+            // txtduracion
             // 
-            this.textBox1.Location = new System.Drawing.Point(335, 60);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(35, 22);
-            this.textBox1.TabIndex = 92;
+            this.txtduracion.Location = new System.Drawing.Point(335, 60);
+            this.txtduracion.Name = "txtduracion";
+            this.txtduracion.Size = new System.Drawing.Size(35, 22);
+            this.txtduracion.TabIndex = 92;
             // 
             // label1
             // 
@@ -168,12 +188,12 @@
             this.label1.TabIndex = 93;
             this.label1.Text = "Duracion";
             // 
-            // txtdni
+            // txtnombre
             // 
-            this.txtdni.Location = new System.Drawing.Point(105, 61);
-            this.txtdni.Name = "txtdni";
-            this.txtdni.Size = new System.Drawing.Size(134, 22);
-            this.txtdni.TabIndex = 90;
+            this.txtnombre.Location = new System.Drawing.Point(105, 61);
+            this.txtnombre.Name = "txtnombre";
+            this.txtnombre.Size = new System.Drawing.Size(134, 22);
+            this.txtnombre.TabIndex = 90;
             // 
             // label13
             // 
@@ -186,28 +206,11 @@
             this.label13.TabIndex = 91;
             this.label13.Text = "Nombre";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.SeaGreen;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SteelBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::Electivo_I.Properties.Resources.editar;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(6, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(155, 45);
-            this.button1.TabIndex = 59;
-            this.button1.Text = "Editar";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // Registrar_Profesiones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(43)))), ((int)(((byte)(76)))));
             this.ClientSize = new System.Drawing.Size(400, 300);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox4);
@@ -224,17 +227,17 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btncerrar;
         private System.Windows.Forms.Button btnregistrar;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label4;
-        internal System.Windows.Forms.TextBox textBox5;
-        internal System.Windows.Forms.TextBox textBox1;
+        internal System.Windows.Forms.TextBox txtid;
+        internal System.Windows.Forms.TextBox txtduracion;
         private System.Windows.Forms.Label label1;
-        internal System.Windows.Forms.TextBox txtdni;
+        internal System.Windows.Forms.TextBox txtnombre;
         private System.Windows.Forms.Label label13;
-        internal System.Windows.Forms.TextBox textBox2;
+        internal System.Windows.Forms.TextBox txtdescripcion;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btneditar;
     }
 }

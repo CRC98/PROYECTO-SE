@@ -45,7 +45,7 @@ namespace Electivo_I.Formularios
 
         private void button4_Click(object sender, EventArgs e)
         {
-            AbrirFormPanel(new Opciones());
+            AbrirFormPanel(new TipAlumno());
         }
     }
 }

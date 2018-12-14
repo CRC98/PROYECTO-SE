@@ -39,6 +39,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(43)))), ((int)(((byte)(76)))));
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -51,31 +52,33 @@
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.SeaGreen;
             this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(212)))), ((int)(((byte)(174)))));
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SteelBlue;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = global::Electivo_I.Properties.Resources.marcar;
+            this.button4.Image = global::Electivo_I.Properties.Resources.avatar;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(612, 36);
+            this.button4.Location = new System.Drawing.Point(665, 36);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(173, 45);
             this.button4.TabIndex = 37;
-            this.button4.Text = "Opciones";
+            this.button4.Text = "Tipo de Alumno";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.SeaGreen;
             this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(212)))), ((int)(((byte)(174)))));
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SteelBlue;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::Electivo_I.Properties.Resources.cuestionario_tipo_test;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(433, 36);
+            this.button3.Location = new System.Drawing.Point(475, 36);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(173, 45);
             this.button3.TabIndex = 36;
@@ -85,14 +88,15 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.SeaGreen;
             this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(212)))), ((int)(((byte)(174)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SteelBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::Electivo_I.Properties.Resources.reanudar;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(254, 36);
+            this.button2.Location = new System.Drawing.Point(286, 36);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(173, 45);
             this.button2.TabIndex = 35;
@@ -102,14 +106,15 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.SeaGreen;
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(212)))), ((int)(((byte)(174)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SteelBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::Electivo_I.Properties.Resources.documento_de_lista_simbolo_de_interfaz;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 36);
+            this.button1.Location = new System.Drawing.Point(36, 36);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(236, 45);
             this.button1.TabIndex = 34;
@@ -119,6 +124,7 @@
             // 
             // PanelContenedor2
             // 
+            this.PanelContenedor2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(43)))), ((int)(((byte)(76)))));
             this.PanelContenedor2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContenedor2.Location = new System.Drawing.Point(0, 100);
             this.PanelContenedor2.Name = "PanelContenedor2";
