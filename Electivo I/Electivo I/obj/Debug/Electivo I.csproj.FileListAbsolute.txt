@@ -1,0 +1,50 @@
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\Electivo I.exe.config
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\Electivo I.exe
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\Electivo I.pdb
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo I.csprojResolveAssemblyReference.cache
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Login.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Registrar_Alumno.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Test.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Properties.Resources.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo I.csproj.GenerateResource.Cache
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo I.exe
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo I.pdb
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Menu.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Archivo.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Usuario.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.TipoDocumento.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Cuestionario.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Opciones.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Profesiones.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Invitado.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\FlashControlV71.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\bin\Debug\stdole.dll
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Acerca_de.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Administrador.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Alumnos.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Cuentas.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Invitados.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.R_Test.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Registrar_Administrador.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Registrar_Cuentas.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Registrar_Cuestionario.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Registrar_Opciones.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Registrar_Profesiones.resources
+C:\Users\Jimmy Moncada\Downloads\Electivo I\Electivo I\obj\Debug\Electivo_I.Formularios.Registrar_TipoDocumento.resources
